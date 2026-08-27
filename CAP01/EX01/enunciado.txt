@@ -1,0 +1,13 @@
+==========================================================
+Programa 1.1: Função para obter o valor máximo de um 
+conjunto. 
+==========================================================
+Considere o algoritmo para encontrar o maior elemento 
+de um vetor de inteiros A[1...n], >= 1, seja f uma função
+de complexidade tal que f(n) é o número de comparações 
+entre os elementos de A, se A contiver n elementos. Logo,
+
+f(n) = n - 1, para n > 0
+
+
+
