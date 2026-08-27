@@ -1,0 +1,83 @@
+==========================================================
+1.1 Algoritmos, Estruturas de Dados e Programas
+
+Algoritmo: sequência de ações executáveis para a obtenção
+de uma solução para determinado tipo de problema;
+
+Linguagem de programação: técnica de notação para programar, 
+com a intenção de servir de veículo tanto para a expressão
+do raciocínio algorítmico quanto para a execução automática
+de um algoritmo por um computador; 
+
+==========================================================
+1.2: Tipos de Dados e Tipos Abstratos de Dados 
+
+Tipo simples de dados:
+- Grupos de valores indivisíveis;
+- Exemplos: integer, boolean, char e real;
+
+Tipo abstrato de dado:
+- modelo matemático, acompanhado das operações definidas 
+sobre o modelo; 
+- Exemplo: conjunto dos inteiros acompanhado das operações 
+de adição, subtração e multiplicação forma um exemplo de um 
+tipo abstrato de dados; 
+
+===========================================================
+1.3 Medida do Tempo de Execução de um Programa
+
+- Tempo de execução e espaço utilizado são considerações
+importantes; 
+
+Dois tipos de problema bem distintos:
+
+1) Análise de um algoritmo particular (custo específico);
+
+* Análise do número de vezes que cada parte do algoritmo
+deve ser executada;
+
+* Estudo da qtd de memória necessária;
+
+2) Análise de uma classe de algoritmos
+
+* colocar limites para a complexidade computacional
+dos algoritmos pertencentes à classe.
+
+* exemplo: estimar o número mínimo de comparações
+necessárias para ordenar n números por meio de comparações
+sucessivas.
+
+algoritmo ótimo ->  menor custo possível; 
+
+Medindo o custo de utilização de um algoritmo
+
+Tempo de execução -> Nem sempre é viável
+1.Os resultados são dependentes do compilador;
+2.Os resultados dependem do hardware; 
+3.Quando grandes qtds de memória são utilizadas, medidas
+de tempo podem depender desse aspecto; 
+
+Quando pode ser útil usar o tempo de execução?
+- Todos os algoritmos apresentam custo de execução
+dentro da mesma ordem de grandeza;
+
+Forma mais adequada de medir o custo -> modelo matemático
+
+função de custo ou função de complexidade f
+* f(n) é a medida do tempo necessário para executar um 
+algoritmo para um problema de tamanho n;
+
+
+Se f(n) é uma medida da qtd do tempo necessário para 
+executar um algoritmo em um problema de tamanho n, então
+f é chamada função de complexidade de tempo do algoritmo;
+
+Se f(n) é uma medida da quantidade da memória necessária
+para executar um algoritmo de tamanho n, então f é 
+chamada função de complexidade de espaço do algoritmo; 
+
+função de complexidade de tempo -> número de vezes que 
+determinada operação considerada relevante é executada; 
+
+OBS: a função de complexidade de tempo não representa 
+o tempo; 
